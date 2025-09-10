@@ -4,7 +4,6 @@ resources:
   any_of:
     - infra: gcp
     - infra: aws
-  infra: gcp
   accelerators:
     # Ordered by pricing (cheapest to most expensive)
     T4: 1
